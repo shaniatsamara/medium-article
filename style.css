@@ -1,0 +1,102 @@
+.navbar {
+  background-image: url("https://source.unsplash.com/random/1200x600");
+  background-size: cover;
+  opacity: 0.8;
+  padding: 120px 0;
+}
+
+div {
+  display: block
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  font-family: 'Lora', serif;
+  color: white
+}
+
+h3 {
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 1.7em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.highlighted-content {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Lora', serif;
+  width: 305px;
+}
+
+.highlighted-content:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+  .navbar {
+    padding: 50px 0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
